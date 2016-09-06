@@ -2,7 +2,7 @@ node {
     // Mark the code checkout 'stage'....
     stage 'Checkout'
     // Get some code from a GitHub repository
-    git url: 'https://github.com/Purushoth88/Java-TestNG-Selenium'
+    git url: 'https://github.com/Purushoth88/Java-TestNG-Selenium.git'
     stage 'Compile'
     sh 'mvn compile'
     stage 'Test'
